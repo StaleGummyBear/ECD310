@@ -1,0 +1,121 @@
+.App {
+  text-align: center;
+  background-color: #ffffff;
+  min-height: 100vh;
+}
+
+.navigation{
+  border-bottom-color: black;
+  border-bottom-width: 5px;
+  border-bottom-style: solid;
+}
+.navbutton {
+  background-color: white;
+  border: none;
+  color: #69337B;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.navbutton:hover{
+  background-color: transparent;
+  box-shadow: none;
+  color: $offwhite;
+}
+
+.header{
+  background-color: #69337B;
+  color: #E8E8E8;
+}
+
+.accountForm input{
+  background-color: white;
+  border: none;
+  border-bottom-style: solid;
+  border-bottom-color: #005a43;
+  border-bottom-width: 2px;
+  border-left-style: solid;
+  border-left-color: #005a43;
+  border-left-width: 2px;
+}
+.accountForm input:hover{
+  background-color: white;
+  border: none;
+  border-bottom-style: solid;
+  border-bottom-color: #04b488;
+  border-bottom-width: 2px;
+  border-left-style: solid;
+  border-left-color: #04b488;
+  border-left-width: 2px;
+}
+.accountForm input:active{
+  background-color: white;
+  border: none;
+  border-bottom-style: solid;
+  border-bottom-color: #04b488;
+  border-bottom-width: 2px;
+  border-left-style: solid;
+  border-left-color: #04b488;
+  border-left-width: 2px;
+}
+.accountForm input:a{
+  background-color: rgb(182, 182, 182);
+  border: none;
+  border-bottom-style: solid;
+  border-bottom-color: #04b488;
+  border-bottom-width: 2px;
+  border-left-style: solid;
+  border-left-color: #04b488;
+  border-left-width: 2px;
+}
+.subHeader{
+  font-size: 50px;
+  background-color: #69337B;
+  color: white;
+  border-width: 5px;
+  border-color: black;
+  border-bottom-style: solid;
+  border-top-style: solid;
+}
+.utilityInterface{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.meterTable{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: inline-block;
+
+}
+table{
+  width: 100%;
+}
+
+table, th, td{
+  text-align: center;
+  border: 1px solid black;
+}
+
+.mapContainer{
+  display: inline-block;
+  border-width: 5px;
+  border-color: black;
+  border-style: solid;
+  width: 50vw;
+}
+
+.googleMapContainer{
+  display: flex;
+  justify-content: flex-start;
+}
+.mapControl{
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+}
